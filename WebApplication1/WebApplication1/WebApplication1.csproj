@@ -65,16 +65,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\app.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="image\m-1.jpg" />
+    <Content Include="image\m-2.jpg" />
+    <Content Include="image\m-3.jpg" />
+    <Content Include="image\m-4.jpg" />
+    <Content Include="image\page1.jpg" />
+    <Content Include="image\pageone.jpg" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\p1.png" />
+    <Content Include="image\p2.png" />
+    <Content Include="image\p3.png" />
+    <Content Include="image\pagethree.png" />
+    <Content Include="image\pagefive.png" />
+    <Content Include="image\page5.jpg" />
+    <Content Include="image\b1.png" />
     <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\carousel.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
